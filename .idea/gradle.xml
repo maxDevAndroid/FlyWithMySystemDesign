@@ -11,6 +11,25 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app/designsystem" />
+            <option value="$PROJECT_DIR$/app/designsystem/animation" />
+            <option value="$PROJECT_DIR$/app/designsystem/button" />
+            <option value="$PROJECT_DIR$/app/designsystem/card" />
+            <option value="$PROJECT_DIR$/app/designsystem/checkbox" />
+            <option value="$PROJECT_DIR$/app/designsystem/chips" />
+            <option value="$PROJECT_DIR$/app/designsystem/dialogs" />
+            <option value="$PROJECT_DIR$/app/designsystem/icons" />
+            <option value="$PROJECT_DIR$/app/designsystem/indicator" />
+            <option value="$PROJECT_DIR$/app/designsystem/layout" />
+            <option value="$PROJECT_DIR$/app/designsystem/pagination" />
+            <option value="$PROJECT_DIR$/app/designsystem/sheets" />
+            <option value="$PROJECT_DIR$/app/designsystem/snackbar" />
+            <option value="$PROJECT_DIR$/app/designsystem/states" />
+            <option value="$PROJECT_DIR$/app/designsystem/stepper" />
+            <option value="$PROJECT_DIR$/app/designsystem/text" />
+            <option value="$PROJECT_DIR$/app/designsystem/theme" />
+            <option value="$PROJECT_DIR$/app/designsystem/tooltip" />
+            <option value="$PROJECT_DIR$/app/designsystem/typography" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
