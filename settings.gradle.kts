@@ -8,7 +8,6 @@ pluginManagement {
             }
         }
         mavenCentral()
-        maven("https://maven.pkg.github.com/lucide-icons/lucide")
         gradlePluginPortal()
     }
 }
