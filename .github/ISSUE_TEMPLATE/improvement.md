@@ -1,9 +1,10 @@
 ---
-name: "🛠 Improvement / Refactor"
+name: "\U0001F6E0 Improvement / Refactor"
 about: Melhorias técnicas, refactors, débitos técnicos
 title: "[IMPROVEMENT] <título curto>"
-labels: ["improvement", "tech-debt"]
-assignees: []
+labels: ''
+assignees: ''
+
 ---
 
 ## 🔧 Contexto

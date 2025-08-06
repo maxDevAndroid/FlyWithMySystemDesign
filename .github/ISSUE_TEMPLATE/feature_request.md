@@ -1,9 +1,10 @@
 ---
-name: "🚀 Feature request"
+name: "\U0001F680 Feature request"
 about: Solicitar uma nova funcionalidade
 title: "[FEATURE] <título curto>"
-labels: ["feature"]
-assignees: []
+labels: ''
+assignees: ''
+
 ---
 
 ## 🎯 Problema / Oportunidade

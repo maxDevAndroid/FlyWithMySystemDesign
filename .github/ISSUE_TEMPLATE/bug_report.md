@@ -1,9 +1,10 @@
 ---
-name: "🐛 Bug report"
+name: "\U0001F41B Bug report"
 about: Reportar um bug
 title: "[BUG] <título curto>"
-labels: ["bug"]
-assignees: []
+labels: bug
+assignees: ''
+
 ---
 
 ## 🐛 Descrição do bug
