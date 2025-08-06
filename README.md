@@ -1,47 +1,64 @@
-# 🎨 FlyWithMySystemDesign - Design System em Jetpack Compose
+# 🎨 FlyWithMySystemDesign – Design System in Jetpack Compose
 
-Este repositório contém um **Design System completo** para Android utilizando **Jetpack Compose Material3**.  
-Ele inclui **tokens de design (cores, tipografia, formas, espaçamento), componentes reutilizáveis, ícones customizados, animações e suporte a Material You.**
+![Fly With My Design System](./assets/fly-with-my-hero.png)
 
----
+**FlyWithMySystemDesign** is a modular and complete **Design System for Android**, built using **Jetpack Compose Material3**.
 
-## ✨ **Recursos**
-- **Tokens de Design:**
-  - `AppColors` (paleta Light/Dark)
-  - `AppTypography` (H1-H6, Body, Label, Display)
-  - `AppShape` (small, medium, large)
-  - `AppSpacing` (xs, sm, md, lg, xl, xxl)
-  - `AppElevation` (none, small, medium, large)
-  - `AppAnimations` (fade, scale, slide)
-
-- **Componentes:**
-  - Botões (`AppButton`, `AppOutlinedButton`, `AppTextButton`, `AppElevatedButton`)
-  - FABs (`AppFab`, `AppExtendedFab`)
-  - Cards (`AppCard`)
-  - Chips (`AppTagChip`, `AppAssistChip`)
-  - Campos (`AppRadio`, `AppCheckbox`, `AppSwitch`)
-  - Estados (`AppLoadingState`, `AppErrorState`, `AppEmptyState`, `AppSuccessState`)
-  - Tooltips (`AppTooltip`)
-  - Snackbar (`AppSnackbar`)
-  - BottomSheet (`AppBottomSheet`)
-  - Layouts (`AppScaffold`, `AppToolbar`, `AppBottomBar`)
-
-- **Ícones Customizados:**
-  - `AppIcons` (Filled, Outlined, Rounded via `material-icons-extended`)
-  - Vetores personalizados via `ImageVector.vectorResource`
-
-- **Temas:**
-  - `AppDynamicTheme` com **Material You (Dynamic Color)** e fallback Light/Dark.
-
-- **Animações:**
-  - `fadeInOut`, `scaleInOut` e animações customizadas para interação.
+It provides **ready-to-use UI components, design tokens (color, typography, spacing, shape, elevation), custom icons, animations**, and **Material You dynamic theming** – all designed for scalability, consistency, and performance.
 
 ---
 
-## 📦 **Instalação**
+## ✨ Features
 
-Adicione no seu `build.gradle` (Module):
+### 🎛️ Design Tokens
+- `AppColors` – Light & Dark palettes
+- `AppTypography` – H1–H6, Body, Label, Display
+- `AppShape` – small, medium, large
+- `AppSpacing` – xs, sm, md, lg, xl, xxl
+- `AppElevation` – none, small, medium, large
+- `AppAnimations` – fade, scale, slide
+
+### 🧩 Components
+- **Buttons:**  
+  `AppButton`, `AppOutlinedButton`, `AppTextButton`, `AppElevatedButton`
+
+- **FABs:**  
+  `AppFab`, `AppExtendedFab`
+
+- **Cards:**  
+  `AppCard`
+
+- **Chips:**  
+  `AppTagChip`, `AppAssistChip`
+
+- **Form Elements:**  
+  `AppRadio`, `AppCheckbox`, `AppSwitch`
+
+- **UI States:**  
+  `AppLoadingState`, `AppErrorState`, `AppEmptyState`, `AppSuccessState`
+
+- **Others:**  
+  `AppTooltip`, `AppSnackbar`, `AppBottomSheet`, `AppScaffold`, `AppToolbar`, `AppBottomBar`
+
+### 🎨 Custom Icons
+- `AppIcons` – Filled, Outlined, Rounded (via `material-icons-extended`)
+- Custom vectors using `ImageVector.vectorResource`
+
+### 🌗 Themes
+- `AppDynamicTheme` – Supports **Material You** (Dynamic Color) on Android 12+
+- Light and Dark fallback with full token integration
+
+### 🎞️ Animations
+- Built-in: `fadeInOut`, `scaleInOut`
+- Easily extendable with custom transitions for user interaction
+
+---
+
+## 📦 Installation
+
+Add the dependencies to your `build.gradle` (Module):
+
 ```gradle
-implementation "androidx.compose.material3:material3:<versão>"
-implementation "androidx.compose.material:material-icons-extended:<versão>"
+implementation "androidx.compose.material3:material3:<version>"
+implementation "androidx.compose.material:material-icons-extended:<version>"
 ```
